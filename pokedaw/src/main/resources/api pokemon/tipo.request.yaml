@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:8081/pokemon/tipo?tipo=FUEGO
+method: GET
+queryParams:
+  tipo: FUEGO
+order: 12854

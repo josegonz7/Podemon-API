@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:8081/pokemon/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"id\": 1,\r
+
+    \  \"numeroPokedex\": 1,\r
+
+    \  \"titulo\": \"Bulbasaur Evolucionado\",\r
+
+    \  \"tipo1\": \"PLANTA\",\r
+
+    \  \"tipo2\": \"VENENO\",\r
+
+    \  \"capturado\": \"SUPERBALL\"\r
+
+    }"
+order: 8854

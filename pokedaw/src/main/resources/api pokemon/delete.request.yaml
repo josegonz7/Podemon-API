@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8081/pokemon/5
+method: DELETE
+order: 9854

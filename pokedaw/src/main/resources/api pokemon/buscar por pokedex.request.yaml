@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:8081/pokemon/pokedex?numeroPokedex=25
+method: GET
+queryParams:
+  numeroPokedex: "25"
+order: 10854

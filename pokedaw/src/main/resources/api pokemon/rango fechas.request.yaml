@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8081/pokemon/fecha?inicio=2026-10-01&fin=2026-10-07
+method: GET
+queryParams:
+  inicio: 2026-10-01
+  fin: 2026-10-07
+order: 11854

@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:8081/pokemon
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"numeroPokedex\": 25,\r
+
+    \  \"titulo\": \"Pikachu\",\r
+
+    \  \"tipo1\": \"ELECTRICO\"\r
+
+    }"
+order: 7854
